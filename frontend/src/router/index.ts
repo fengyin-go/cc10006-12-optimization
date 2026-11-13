@@ -8,6 +8,7 @@ const Silver = () => import('@/views/silver/index.vue')
 const Gold = () => import('@/views/gold/index.vue')
 const Lakezone = () => import('@/views/lakezone/index.vue')
 const Stream = () => import('@/views/stream/index.vue')
+const Watermark = () => import('@/views/watermark/index.vue')
 const Batch = () => import('@/views/batch/index.vue')
 const Snapshot = () => import('@/views/snapshot/index.vue')
 const Govern = () => import('@/views/govern/index.vue')
@@ -31,6 +32,7 @@ const router = createRouter({
     { path: '/gold', name: 'gold', component: Gold },
     { path: '/lakezone', name: 'lakezone', component: Lakezone },
     { path: '/stream', name: 'stream', component: Stream },
+    { path: '/watermark', name: 'watermark', component: Watermark },
     { path: '/batch', name: 'batch', component: Batch },
     { path: '/snapshot', name: 'snapshot', component: Snapshot },
     { path: '/govern', name: 'govern', component: Govern },

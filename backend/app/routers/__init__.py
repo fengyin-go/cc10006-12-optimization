@@ -24,5 +24,6 @@ from app.routers import backfill as router_backfill
 from app.routers import search as router_search
 from app.routers import resource as router_resource
 from app.routers import audit as router_audit
+from app.routers import watermark as router_watermark
 
-ROUTERS = [router_catalog, router_ingest, router_bronze, router_silver, router_gold, router_lakezone, router_stream, router_batch, router_snapshot, router_govern, router_meta, router_lineage, router_quality, router_schedule, router_backfill, router_search, router_resource, router_audit]
+ROUTERS = [router_catalog, router_ingest, router_bronze, router_silver, router_gold, router_lakezone, router_stream, router_batch, router_snapshot, router_govern, router_meta, router_lineage, router_quality, router_schedule, router_backfill, router_search, router_resource, router_audit, router_watermark]
